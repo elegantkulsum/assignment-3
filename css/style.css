@@ -1,0 +1,32 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+/* Common style */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+section{
+    margin: 100px 0px;
+}
+h1, h2, h3, h4, h5, h5{
+    padding: 0px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+.navbar-nav a{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
