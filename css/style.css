@@ -13,7 +13,7 @@ section, .explore{
     margin: 150px 0px;
 }
 .top-gap{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .bg-color, .footer{
     background-color: #252554;
@@ -24,6 +24,8 @@ h1, h2, h3, h4, h5, h5{
 }
 h1{
     font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
 }
 h2{
     font-size: 50px;
@@ -42,3 +44,4 @@ a{
     font-size: 18px!important;
     font-weight: 500;
 }
+
