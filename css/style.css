@@ -9,8 +9,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-section{
-    margin: 100px 0px;
+section, .explore{
+    margin: 150px 0px;
+}
+.top-gap{
+    margin-top: 100px;
 }
 .bg-color, .footer{
     background-color: #252554;
