@@ -25,9 +25,16 @@ background: -moz-linear-gradient(-45deg,  rgba(118,17,253,0.79) 28%, rgba(120,18
 background: -webkit-linear-gradient(-45deg,  rgba(118,17,253,0.79) 28%,rgba(120,18,253,0.79) 30%,rgba(142,32,250,0.7) 59%,rgba(170,49,247,0.7) 95%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg,  rgba(118,17,253,0.79) 28%,rgba(120,18,253,0.79) 30%,rgba(142,32,250,0.7) 59%,rgba(170,49,247,0.7) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c97611fd', endColorstr='#b3aa31f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-
+}
+.accordion-button:not(.collapsed){
+    color: #ffffff;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7611fd+28,aa31f7+95&0.79+30,0.7+59 */
+    background: -moz-linear-gradient(-45deg,  rgba(118,17,253,0.79) 28%, rgba(120,18,253,0.79) 30%, rgba(142,32,250,0.7) 59%, rgba(170,49,247,0.7) 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(118,17,253,0.79) 28%,rgba(120,18,253,0.79) 30%,rgba(142,32,250,0.7) 59%,rgba(170,49,247,0.7) 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(118,17,253,0.79) 28%,rgba(120,18,253,0.79) 30%,rgba(142,32,250,0.7) 59%,rgba(170,49,247,0.7) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c97611fd', endColorstr='#b3aa31f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #ffffff;
+    box-shadow: none;
 }
 .buttons{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7611fd+28,aa31f7+95&0.79+30,0.7+59 */
@@ -90,4 +97,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05aa31f7', e
     margin-bottom: 0px!important;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+
+/* Course */
+.course-price{
+    color: #aa31f7;
+}
+
+/* According style */
+.item {
+    margin-bottom: 10px;
+    border: 1px solid #0000ff1c;
+}
+
+.top-border {
+    border-top: 1px solid #0000ff1c;
+}
+.shadow-md {
+    border-left: 1px solid #0000ff1c!important;
+    border-right: 1px solid #0000ff1c!important;
+    border-top: 1px solid #0000ff1c!important;
+    border-radius: 10px;
+}
+
+.border.border-2.p-4 {
+    border-left: 1px solid #0000ff1c!important;
+    border-right: 1px solid #0000ff1c!important;
+    border-bottom: 1px solid #0000ff1c!important;
 }
